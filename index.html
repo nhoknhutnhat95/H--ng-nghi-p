@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./FontAwesome.Pro.6.4.2/css/all.css">
+
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light" style="background-color: #FFFFFF !important;">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="image/Logo.svg" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto a-disable align-items-center" style="text-align: center;">
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="font-size: 18px; font-size: 600; line-height: normal;">
+              Giới thiệu
+            </a>
+            <ul class="dropdown-menu mx-4 ">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-4 ">
+            <a class="nav-link active" aria-current="page" href="#">Dịch vụ</a>
+          </li>
+
+          <li class="nav-item dropdown mx-4 ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Kênh thông tin
+            </a>
+            <ul class="dropdown-menu a-disable">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item mx-4 ">
+            <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+          </li>
+
+          <li class="nav-item login-button ">
+            <a class="nav-link" href="#">Đăng nhập</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-3 py-md-4 py-lg-5" style="border-top:1.5px solid var(--Text-1, #1F1F1F);">
+    <p style="text-align: start; color:#000000; font-weight: 700; font-size: 36px; font-style: normal">Bảng tin siêu hot
+    </p>
+    <div class="row">
+      <div class="col-md-3 col-6 mt-md-0 mt-2">
+        <div class="container-fluid">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body rounded border border-0">
+              <img src="image/pic1.png" class="card-img-top" alt=".">
+              <div class="card-body row">
+                <div class="col-12 mt-2">
+                  <h5 class="card-title" style="color: var(--Text, #1F1F1F);font-weight: 700; font-size: 18px;">Lộ diện
+                    những nghề nghiệp đầy triển vọng trong thập kỷ tới</h5>
+                  <p class="card-text" style="color: #3C3C3C; font-weight: 400;font-size:18px;">Trong bối cảnh thế giới
+                    liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không...</p>
+                </div>
+              </div>
+              <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700;font-size:16px;">
+                20/10/2023 - Đặng Meo Meo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="container-fluid">
+          <img style="justify-content: center; display:flex;" src="image/Frame.svg">
+        </div>
+
+      </div>
+      <div class="col-md-9 col-6 mt-md-0 mt-2">
+        <div class="container-fluid">
+          <div class="parent">
+            <a href="#" style="text-decoration: none;">
+              <div class="card h-100 mb-3 bg-body rounded border border-0">
+                <img src="image/image 23.png" class="card-img-top" alt="...">
+                <div class="card-body row">
+                  <div class="col-md-9 mt-2">
+                    <h5 class="card-title" style="color: var(--Text, #1F1F1F);font-weight: 700; font-size: 24px;">Lộ
+                      diện những nghề nghiệp đầy triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;">Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng. Các
+                      công việc nổi bật trong quá khứ có thể không còn phù hợp với nhu cầu hiện tại Các công việc nổi
+                      bật trong quá khứ có thể không còn phù hợp với nhu cầu hiện tại</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">
+                    20/10/2023 - Đặng Meo Meo
+                  </div>
+                </div>
+            </a>
+            <!-- Divider -->
+            <div class="col-md-9">
+              <hr style="color:#373737">
+            </div>
+            <a href="#" style="text-decoration: none;">
+              <div class="card mb-3 bg-body rounded border border-0 h-100 mt-2">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/Rectangle 3178.png" class="img-fluid rounded-start" alt="..."
+                      style="object-fit: cover;">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy
+                        iujo triển vọng trong thập kỷ tới</h5>
+                      <p class="card-text">Trong bối cảnh thế giới liên tục thay đổi và phát triển, xu hướng về sự
+                        nghiệp cũng có sự biến đổi không ngừng.</p>
+                    </div>
+                    <div class="card-footer footer-setting"
+                      style="color: var(--Text-2, #3C3C3C); font-weight: 700; font-size: 16px;">
+                      Trần Văn Gro
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <img src="image/Frame (1).svg" class="img-fluid absolute-right">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Khám phá bản thân-->
+  <div class="container py-3 py-md-4 py-lg-5">
+    <div class="row justify-content-start" style="font-weight: 700; font-size:36px;">
+      <div class="col-lg-4 col-4 f-s-28 text-start pb-3">
+        Khám phá bản thân
+      </div>
+    </div>
+    <!-- <div class="card-deck custom-card-deck">
+      <div class="row mt-5">
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body card-setting">
+              <img src="image/card1.png" class="card-img-top" alt=".">
+             <div class="card-body row pb-0">
+                <div class="col-12 mt-2">
+                    <h5 class="card-title mb-0">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi IT</h5>
+                </div>
+             </div>
+             <div class="card-footer pt-0 footer-setting">
+                20/10/2023 - Đặng Meo Meo
+             </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+            <a href="" style="text-decoration: none">
+              <div class="card h-100 mb-3 bg-body card-setting">
+                <img src="image/card2.png" class="card-img-top" alt=".">
+                <div class="card-body row pb-0">
+                    <div class="col-12 mt-2">
+                        <h5 class="card-title mb-0">Doanh nghiệp công nghệ Việt quan tâm gì khi ra nước ngoài</h5>
+                    </div>
+                </div>
+               <div class="card-footer pt-0 footer-setting">
+                  20/10/2023 - Đặng Meo Meo
+               </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mt-md-0 mt-2">
+            <a href="" style="text-decoration: none">
+              <div class="card h-100 mb-3 bg-body card-setting">
+                <img src="image/card3.png" class="card-img-top" alt=".">
+                <div class="card-body row pb-0">
+                    <div class="col-12 mt-2">                      
+                        <h5 class="card-title mb-0">380 kỹ sư Việt sát hạch kỹ năng CNTT theo chuẩn quốc tế</h5>
+                    </div>
+               </div>
+               <div class="card-footer pt-0 footer-setting">
+                  20/10/2023 - Đặng Meo Meo
+               </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mt-md-0 mt-2">
+            <a href="" style="text-decoration: none">
+              <div class="card h-100 mb-3 bg-body card-setting">
+                <img src="image/card4.png" class="card-img-top" alt=".">
+                <div class="card-body row pb-0">
+                    <div class="col-12 mt-2">
+                        <h5 class="card-title mb-0">One Mount kiến tạo hệ sinh thái công nghệ toàn diện</h5>
+                    </div>
+               </div>
+               <div class="card-footer pt-0 footer-setting">
+                  20/10/2023 - Đặng Meo Meo
+               </div>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div> -->
+    <div class="row row-cols-4 gx-3">
+      <div class="col">
+        <div class="card card-lookinside">
+          <img src="image/card4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi IT</h5>
+          </div>
+          <div class="card-footer">
+            20/10/2023 - Đặng Meo Meo
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-lookinside">
+          <img src="image/card4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi IT</h5>
+          </div>
+          <div class="card-footer">
+            20/10/2023 - Đặng Meo Meo
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-lookinside">
+          <img src="image/card4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi ITa sdas asd asdasd asd5 asd5646as4d asd465</h5>
+          </div>
+          <div class="card-footer">
+            20/10/2023 - Đặng Meo Meo
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-lookinside">
+          <img src="image/card4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi IT</h5>
+          </div>
+          <div class="card-footer">
+            20/10/2023 - Đặng Meo Meo
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="custom-button">
+        <span class="button-content gap-4">
+          Xem thêm
+          <i class="fa-solid fa-arrow-up-right"></i>
+        </span>
+      </button>
+    </div>
+
+  </div>
+
+
+
+
+  <!--Khám phá nghề nghiệp-->
+  <div class="container py-3 py-md-4 py-lg-5">
+    <div class="row justify-content-start" style="font-weight: 700; font-size:36px;">
+      <div class="col-lg-4 col-4 f-s-28 text-start pb-3">
+        Khám phá nghề nghiệp
+      </div>
+    </div>
+    <div class="card-deck custom-card-deck">
+      <div class="row mt-5">
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body card-setting">
+              <img src="image/card1.png" class="card-img-top" alt=".">
+              <div class="card-body row">
+                <div class="col-12 mt-2">
+                  <h5 class="card-title">Nữ hannah góp phần giúp học viên online chạm ước mơ theo đuổi IT</h5>
+                </div>
+              </div>
+              <div class="card-footer footer-setting">
+                20/10/2023 - Đặng Meo Meo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body card-setting">
+              <img src="image/card2.png" class="card-img-top" alt=".">
+              <div class="card-body row">
+                <div class="col-12 mt-2">
+                  <h5 class="card-title">Doanh nghiệp công nghệ Việt quan tâm gì khi ra nước ngoài</h5>
+                </div>
+              </div>
+              <div class="card-footer footer-setting">
+                20/10/2023 - Đặng Meo Meo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body card-setting">
+              <img src="image/card3.png" class="card-img-top" alt=".">
+              <div class="card-body row">
+                <div class="col-12 mt-2">
+                  <h5 class="card-title">380 kỹ sư Việt sát hạch kỹ năng CNTT theo chuẩn quốc tế</h5>
+                </div>
+              </div>
+              <div class="card-footer footer-setting">
+                20/10/2023 - Đặng Meo Meo
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-6 mt-md-0 mt-2">
+          <a href="" style="text-decoration: none">
+            <div class="card h-100 mb-3 bg-body card-setting">
+              <img src="image/card4.png" class="card-img-top" alt=".">
+              <div class="card-body row">
+                <div class="col-12 mt-2">
+                  <h5 class="card-title">One Mount kiến tạo hệ sinh thái công nghệ toàn diện</h5>
+                </div>
+              </div>
+              <div class="card-footer footer-setting">
+                20/10/2023 - Đặng Meo Meo
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="custom-button">
+        <span class="button-content gap-4">
+          Xem thêm
+          <i class="fa-solid fa-arrow-up-right"></i>
+        </span>
+      </button>
+    </div>
+
+  </div>
+
+
+
+  <!--Tổng hợp-->
+  <div class="container py-3 py-md-4 py-lg-5">
+    <div class="row justify-content-start" style="font-weight: 700; font-size:36px;">
+      <div class="col-lg-3 col-3 f-s-28 text-start pb-3">
+        Tổng hợp
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4 col-6 mt-md-0 mt-2">
+        <a href="" style="text-decoration: none">
+          <div class="card h-100 mb-3 bg-body border-0">
+            <img src="image/Rectangle 3179.png" class="card-img-top" alt=".">
+            <div class="card-body row">
+              <div class="col-12 mt-2">
+                <h5 class="card-title">Lộ diện những nghề nghiệp đầy triển vọng trong thập kỷ tới</h5>
+              </div>
+            </div>
+            <div class="card-footer footer-setting" style="color: #3C3C3C">20/10/2023 - Đặng Meo Meo</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-6 mt-md-0 mt-2">
+        <a href="" style="text-decoration: none">
+          <div class="card h-100 mb-3 bg-body rounded border border-0">
+            <img src="image/Rectangle 3180.png" class="card-img-top" alt=".">
+            <div class="card-body row">
+              <div class="col-12 mt-2">
+                <h5 class="card-title">Lộ diện những nghề nghiệp đầy triển vọng trong thập kỷ tới</h5>
+              </div>
+            </div>
+            <div class="card-footer footer-setting" style="color: #3C3C3C">20/10/2023 - Đặng Meo Meo</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-6 mt-md-0 mt-2">
+        <a href="" style="text-decoration: none">
+          <div class="card h-100 mb-3 bg-body rounded border border-0">
+            <img src="image/Rectangle 3181.png" class="card-img-top" alt=".">
+            <div class="card-body row">
+              <div class="col-12 mt-2">
+                <h5 class="card-title">Lộ diện những nghề nghiệp đầy triển vọng trong thập kỷ tới</h5>
+              </div>
+            </div>
+            <div class="card-footer footer-setting" style="color: #3C3C3C">20/10/2023 - Đặng Meo Meo</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide mt-2">
+      <div class="carousel-indicators" style="justify-content: start; margin-left:0%; margin-bottom:0%">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+          class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183.png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (1).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (2).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183.png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (1).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (2).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183.png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (1).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (2).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183.png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (1).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (2).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183.png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (1).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <div class="card mb-3 bg-body rounded border border-0 h-100">
+              <div class="row g-0">
+                <div class="col-md-3 mt-2">
+                  <img src="image/Rectangle 3183 (2).png" class="img-fluid" alt="..." style="object-fit: cover;">
+                </div>
+                <div class="col-md-7 mt-2">
+                  <div class="card-body">
+                    <h5 class="card-title" style="font-weight: 700; font-size: 24px;">Lộ diện những nghề nghiệp đầy iujo
+                      triển vọng trong thập kỷ tới</h5>
+                    <p class="card-text" style="color: #3C3C3C; font-weight: 400; font-size:18px;"> Trong bối cảnh thế
+                      giới liên tục thay đổi và phát triển, xu hướng về sự nghiệp cũng có sự biến đổi không ngừng.</p>
+                  </div>
+                  <div class="card-footer footer-setting" style="color: #3C3C3C; font-weight: 700; font-size:16px;">Trần
+                    Văn Gro</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.a-disable {
+    color: #8E8E8E;
+}
+
+.nav-item:hover .nav-link {
+    color: #000000;
+    font-weight: 700;
+}
+
+.login-button {
+    border: 2px solid #000000;
+    width: 174px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.absolute-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+.card-setting {
+    border-radius: 25px;
+    border: 2px solid #E7E7E7;
+    background: var(--Color, #FFF)
+}
+
+.footer-setting {
+    background: var(--Color, #FFF);
+    border-top: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.button-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-button {
+    background-color: #FFF;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 178px;
+    height: 61px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 26px;
+}
+
+.custom-button .button-content {
+    display: flex;
+    align-items: center;
+}
+
+.custom-button svg {
+    margin-left: 5px;
+    fill: currentColor;
+    transition: fill 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.custom-button:hover i {
+    transform: rotate(45deg);
+}
+
+.custom-button i {
+    transition: transform 0.3s ease;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    flex-shrink: 0;
+    border-radius: 50% !important;
+    background-color: #fff;
+    border: 1.5px solid var(--Text-1, #1F1F1F) !important;
+    cursor: pointer !important;
+}
+
+.carousel-indicators .active {
+    background-color: #007FF7 !important;
+
+}
+
+.card-lookinside .card-body {
+    padding: 15px 22px
+}
+
+.card-lookinside {
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border: 2px solid #E7E7E7;
+    background: #FFF;
+    height: 100%;
+}
+
+.card-lookinside .card-title {
+    margin-bottom: 0;
+}
+
+.card-lookinside .card-footer {
+    background-color: white;
+    padding: 0 22px;
+    border-top: unset;
+    color:  #3C3C3C;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
